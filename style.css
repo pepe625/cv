@@ -1,0 +1,77 @@
+/*comentarios en css*/
+
+/*selector de eyiquetas*/
+
+body{
+    /*estilo de letra*/
+    font-size: 20px;
+    background-color: rgb(58, 110, 58);
+    font-family: "Pacifico", cursive 
+}
+
+
+/*selector de clase*/
+.cafe{
+    text-align: ;
+    background-color: rgb(241, 200, 123);
+    color: rgb(11, 150, 103);   
+}
+
+/*selector de ID*/
+#perfil{
+    width: 800px; 
+    margin: 300px;
+}
+
+h2{
+    color: blue;
+}
+
+.titulo{
+    color: rgb(243, 245, 245);
+    background-color: rgb(10, 10, 10);
+    width: 120px;
+    padding: 12px 15px;
+    margin: 10px;
+    border-top-left-radius: 20px;
+}
+
+h2{
+    color: rgb(20, 28, 102);
+}
+
+/*selector avanzado*/
+
+header nav ul{
+    background-color: rgb(170, 146, 121);
+    list-style-type: none;
+}
+
+nav ul li a{
+    color: blanchedalmond;
+    text-decoration: none;
+    
+}
+
+p{
+    text-align: left;
+}
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.whisper-regular {
+    font-family: "Whisper", cursive;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+.madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}  

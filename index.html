@@ -1,58 +1,97 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Currículum</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-        h1, h2 {
-            color: #333;
-        }
-        p {
-            color: #666;
-        }
-    </style>
+    <!--Enlace de google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Pacifico&family=Whisper&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>CV DE JOSE VARGAS</title>
 </head>
-<body>
-    <div class="container">
-        <h1 style="color: green;">Jose Vargas</h1>
-        <p style="color: antiquewhite;">Estudiante de DEvf</p>
-        <h2 style="color: red;">Experiencia Laboral</h2>
-        <ul style="color: aqua;">
-            <li>Sous-chef restaurant Highland house(2007-2012).Mequon, Wisconsin</li>
-            <li>Operador de maquinaria pesada en mina buena vista del cobre(2012-2015).Cananea,Sonora</li>
-            <li>Chef principal Jonny Manhathan's(2015-presente).Richfield, Wisconsin</li>
-        </ul>
-        <h2 style="color: blanchedalmond;">Educación</h2>
-        <p>Carrera tecnica en informatica,COBAEH-HIDALGO(2004-2007)</p>
-        <P>Curso de habilidades culinarias MATC-Wisconsin(2008-2009)</P>
-        <p>Curso de operacion de maquinaria 797F CATERPILLAR-MEXICO(2013-2015)</p>
-        <h2 style="color: green;">Habilidades</h2>
+<body> 
+
+    <!--cabecera-->
+    <header class="cafe">
+        <h1>CV DE JOSE VARGAS</h1>
+        <img id="perfil" src="Grupo-Mexico-1.jpg" 
+        alt="foto de perfil">
+
+        <!--barra de navegacion-->
+        <nav>
+            <ul><!--lista desordenada-->
+                <!--enlaces internos-->
+                <li> <a href="#sobre-mi">Sobre mi</a></li>
+                <li> <a href="#expe-laboral"> Experiencia laboral</a></li>
+                <li> <a href="#educacion"> Educacion</a></li>
+                <li> <a href="#habilidades">Habilidades</a></li>
+                <li> <a href="#contacto">Contacto</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <!--seccion principal-->
+    <main>
+        <section id="sobre-mi">
+            <h2 class="titulo">Sobre mi</h2>
+            <p>Soy um profecional en dos distintas areas, minero y chef de profecion, mi profecionalismo me destaca por trabajar en equipo ademas mi profecionalismo me respalda.
+            </p>
+        </section>
+
+        <section id="exp-laboral">
+            <h2 class="titulo">Experiencia laboral</h2>
+            <!--Article, parte importante de mi pagina-->
+            <article>
+            <p> <strong>Chef en "Jonny Manhathan's" ~</strong> Mayo 2015-presente</p>
+            <p>Lidero a un equipo de ocho personas que contiyuyen desde el area de carnes, sartenes, postres, lavaplatos, pizzas,ensaladas y preparacion</p>
+        
+        <u>
+            <li>Especialista en cortes de carne premium</li>
+            <li>Especialista en platillos italianos</li>
+            <li>Coordinacion para eventos especiales</li>
+        </u>
+        </article>
+    </section>
+
+    <section id="Educacion">
+        <h2 class="titulo">Educacion</h2>
+        <article>
+            <h3>COBAEH</h3>
+            <p> <strong>Carreta tecnica en informatica~ 2004-2007</strong></p>
+            <h3>MATC</h3>
+            <P> <STRong>Carrera Culinaria~2008-2010</STRong></P>
+            <h3>Caterpillar Mexico/Buena vista del cobre</h3>
+            <p> <strong>Capacitacion con Caterpillar-Mexico en 797f~2012-2014</strong></p>
+        </article>
+    </section>
+
+    <section id="Habilidades">
+        <h2 id="hab"></h2>
+        <h3 class="titulo">Idiomas</h3>
+        <p> <strong>Ingles</strong> Avanzado</p>
+        <h3 class="titulo">Habilidades externas</h3>
         <ul>
-            <li>Trading en opciones,tranding en Crpto</li>
-            <li>Cocinar</li>
-            <li>Aprendiendo a programar</li>
+            <li>Manejo de maquinaria pesada(komatsu, caterpillar)</li>
+            <li>Trading en el mercado estadounidense, stocks, indices, materias primas y crypto</li>
+            <li>Direccion en eventos de comida a gran escala</li>
         </ul>
-        <h3>Datos de contacto</h3>
-        <ul >
-            <li><a href="pepe625@icloud.com">email </a></li>
-            <li><a href="1234567">Telefono</a></li>
-            <li><a href="instagram/pepvher">instagram</a></li>
+    </section>
+
+    <!--pie de pagina-->
+    <footer class="cafe">
+        <section id="Contacto">
+            <h2 class="titulo">contacto</h2>
+            <h3 id="email">Email:</h3>
+            <p>pepe625@icloud.com</p>
+            <h3>telefono</h3>
+            <p>1234567890</p>
+        </section>
+
+        <h3>Redes sociales:</h3>
+        <ul>
+            <li><a href="www.instagram.com/pepvher"></a>instagram/pepevher</li>
+            
         </ul>
-    </div>
-</body>
-</html>
+    </footer>
