@@ -1,77 +1,84 @@
-/*comentarios en css*/
-
-/*selector de eyiquetas*/
-
-body{
-    /*estilo de letra*/
-    font-size: 20px;
-    background-color: rgb(58, 110, 58);
-    font-family: "Pacifico", cursive 
+*{
+    border: 1px solid #000;
+    padding: 10px;
+    margin:10px;
 }
 
+/*fondo_morado*/
 
-/*selector de clase*/
-.cafe{
-    text-align: ;
-    background-color: rgb(241, 200, 123);
-    color: rgb(11, 150, 103);   
+.bg_purple{
+    background-color: blueviolet;
+
+}    
+
+.bg_pink{
+    background-color: palevioletred;
 }
 
-/*selector de ID*/
-#perfil{
-    width: 800px; 
-    margin: 300px;
+.bg_yellow{
+    background-color: yellow;
 }
 
-h2{
-    color: blue;
+.bg_green{
+    background-color: green;
 }
 
-.titulo{
-    color: rgb(243, 245, 245);
-    background-color: rgb(10, 10, 10);
-    width: 120px;
-    padding: 12px 15px;
-    margin: 10px;
-    border-top-left-radius: 20px;
+.block{
+    /*acepta altura*/
+    display: block;
 }
 
-h2{
-    color: rgb(20, 28, 102);
+.inline{
+    /*no acepta tamano*/
+    display: inline;
 }
 
-/*selector avanzado*/
-
-header nav ul{
-    background-color: rgb(170, 146, 121);
-    list-style-type: none;
+.inline-block{
+    /*acapta tamani*/
+    display: inline-block;
 }
 
-nav ul li a{
-    color: blanchedalmond;
-    text-decoration: none;
-    
+aside{
+    width: 50%;
+    height: 50dvw;
 }
 
-p{
-    text-align: left;
+.flex{
+    /*configuraciones del diplay flex*/
+    display: flex;
+    /*direccion*/
+    flex-direction: row;
+    /*para agruparlas*/
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
 }
 
-.pacifico-regular {
-    font-family: "Pacifico", cursive;
-    font-weight: 400;
-    font-style: normal;
+#content{
+    width: 65%;
 }
 
+.flex_1{
+    /*tamano de un elemento*/
+    flex-grow: 1;
+}
 
-.whisper-regular {
-    font-family: "Whisper", cursive;
-    font-weight: 400;
-    font-style: normal;
-}  
+.flex_2{
+    flex-grow: 2;
+}
 
-.madimi-one-regular {
-    font-family: "Madimi One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}  
+.grid{
+    display: grid;
+    grid-template-columns:50px 1fr 1fr 2fr; /*fr tamano en fraccion de la cuadricula*/
+    grid-template-rows: 25% 25% 30% 20%;
+    /*gap:30px 100px*/
+    gap: 30px 100px;
+    column-gap: 10px;
+    row-gap: 20px;
+}
+
+.grid_item_1{
+    grid-column-start: 1;
+
+    grid-column-end: 5;
+}
